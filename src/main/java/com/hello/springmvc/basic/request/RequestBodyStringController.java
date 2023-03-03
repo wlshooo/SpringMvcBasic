@@ -40,7 +40,7 @@ public class RequestBodyStringController {
 
     }
 
-    @PostMapping("/request-body-string-v2")
+    @PostMapping("/request-body-string-v3")
     public HttpEntity<String> requestBodyStringV3(HttpEntity<String> httpEntity) throws IOException {
 
         String messageBody =
@@ -53,7 +53,7 @@ public class RequestBodyStringController {
     }
 
     @ResponseBody
-    @PostMapping("/request-body-string-v2")
+    @PostMapping("/request-body-string-v4")
     public String requestBodyStringV4(@RequestBody String messageBody) throws IOException {
 
 
